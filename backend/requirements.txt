@@ -1,0 +1,6 @@
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+pydantic>=2.7,<3
+numpy>=1.24,<3
+# Keep this aligned with the version used to serialize best_model.pkl.
+scikit-learn==1.7.2
